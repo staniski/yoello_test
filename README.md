@@ -1,6 +1,16 @@
 ## How to Run 
-In the top-level directory 
+In the top-level directory create a .env.dev file and copy:
 
+```
+FLASK_APP=project/__init__.py
+FLASK_ENV=development
+DATABASE_URL=postgresql://flask:flask@db:5432/flask_dev
+SQL_HOST=db
+SQL_PORT=5432
+DATABASE=postgres
+
+```
+After that in the terminal run
 ```
 $ docker-compose build 
 $ docker-compose up -d
