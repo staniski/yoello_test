@@ -6,6 +6,11 @@ $ docker-compose build
 $ docker-compose up -d
 $ docker-compose exec web python manage.py create_db
 ```
+To create an example user entry in the database 
+```
+$ docker-compose exec web python manage.py create_db
+```
+
 Go to http://localhost:5000 to view the server
 
 ## How to view database
