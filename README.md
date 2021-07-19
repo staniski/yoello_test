@@ -8,7 +8,7 @@ $ docker-compose exec web python manage.py create_db
 ```
 To create an example user entry in the database 
 ```
-$ docker-compose exec web python manage.py create_db
+$ docker-compose exec web python manage.py seed_db
 ```
 
 Go to http://localhost:5000 to view the server
