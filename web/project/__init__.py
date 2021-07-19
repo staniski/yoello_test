@@ -1,7 +1,10 @@
 from flask import Flask, jsonify
+from project.models import User, db
 
 
 app = Flask(__name__)
+app.config.from_object("project.config.Config")
+db.init_app(app)
 
 
 @app.route("/")
