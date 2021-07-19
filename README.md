@@ -30,12 +30,12 @@ To get all users do a GET Request to http://localhost:5000/users
 To get a user by id, do a GET Request to http://localhost:5000/users/ID
 
 To create a user, do a POST request to http://localhost:5000/users/add with a requst body as a form with values:
-{first_name:"",last_name:"",email:"",phone_number:""}
+{first_name:"YOUR_VALUE",last_name:"YOUR_VALUE",email:"YOUR_VALUE",phone_number:"YOUR_VALUE"}
 
 To update a user, do a PUT request to http://localhost:5000/users/update with a requst body as a form with values:
-{first_name:"",last_name:"",email:"",phone_number:""}
+{first_name:"YOUR_VALUE",last_name:"YOUR_VALUE",email:"YOUR_VALUE",phone_number:"YOUR_VALUE"}
 
-To delete a user, do a DELETE request to http://localhost:5000/users/delete/id. No arguments required.
+To delete a user, do a DELETE request to http://localhost:5000/users/delete/ID. No arguments required.
 
 
 
