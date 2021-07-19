@@ -19,7 +19,7 @@ def create_db():
 @cli.command("seed_db")
 def seed_db():
     db.session.add(User(first_name="Joe", last_name="Pesci",
-                   email="michael@mherman.org", phone_number="12345"))
+                   email="joe@pesci.org", phone_number="12345"))
     db.session.commit()
 
 
